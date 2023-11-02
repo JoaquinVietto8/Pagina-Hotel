@@ -1,0 +1,67 @@
+.cancelation {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.418);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cancelContainer {
+    background-color: white;
+    padding: 30px;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .cancelClose {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 5px 5px 5px;
+  }
+
+  .cancelTitle {
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .cancelBoxButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+ 
+  .caxButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .caxButton:first-child {
+    margin-top: 20px; /* Valor modificado */
+  }
+
+  .caxButton:not(:last-child) {
+    margin-bottom: 10px; /* Nueva propiedad añadida */
+  }  
+
+  .caxButton:hover{
+    background: #f7c08a;
+    color: #333;
+}

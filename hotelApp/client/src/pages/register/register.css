@@ -1,0 +1,76 @@
+  .rregister {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  
+  .rrContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .rtext-primary{
+    color: #f7c08a;
+  }
+
+  .r-heading{
+    font-size: 39px;
+  }
+
+.rGroup input[type=number]::-webkit-inner-spin-button, 
+.rGroup input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+  .rForm{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .rInput{
+    height: 15px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .rGroup{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    padding-right: 10px;
+  }
+
+  .rGroup span{
+    width: 141px;
+  }
+  .rGroup input{
+    width: 200px;
+  }
+
+
+
+  .reButton {
+    border: none;
+    padding: 10px 30px;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .reButton:hover{
+    background: #f7c08a;
+    color: #333;
+}
+
+
+
+.erContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #DC143C;
+}

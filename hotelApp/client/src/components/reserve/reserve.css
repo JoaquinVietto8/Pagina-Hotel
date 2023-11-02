@@ -1,0 +1,96 @@
+.reserve {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.418);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rContainer {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .rClose {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 5px 5px 5px;
+  }
+
+  .rTitle {
+    font-weight: 500;
+  }
+  
+  .typeItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  
+  .rItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .room{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .rButton:hover{
+    background: #f7c08a;
+    color: #333;
+}
+
+
+.errorCont{
+  display: flex;
+  margin-top: 10px;
+  color: #DC143C;
+  align-items: center;
+  justify-content: center;
+}
+
+.errorMessage{
+  text-align: center;
+}

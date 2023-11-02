@@ -1,0 +1,93 @@
+.reservaContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    min-height: 100vh;
+}
+
+.reservaWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.reservaSearch{
+    flex: 1;
+    background-color: #f7c08a;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+
+
+.reservaTitle{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.reservaItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.reservaItem label{
+    font-size: 14px;
+}
+
+.reservaOpciones{
+    padding: 10px;
+}
+
+.reservaItem>span{
+    height: 30px;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.headerSerchText{
+    color: lightgray;
+    cursor: pointer;
+}
+
+.reservaOpcionesItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.reservaOpcionesInput{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+}
+
+.reservaSearch>button{
+    background-color: #333;
+    color: white;
+    font-weight: 500;
+    border: none; 
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.reservaSearch>button:hover{
+    background: #444;
+    color: #f7c08a;
+}
+
+.reservaResults{
+    flex: 3;
+}

@@ -1,0 +1,29 @@
+.servicios{
+    width: 100%;
+    display: flex;
+}
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary{
+    background: #f7c08a;
+    color: #333;
+}
+
+.serviceItem{
+    font-size: 3em;
+}
